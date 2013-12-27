@@ -1,84 +1,222 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <title>Unison Batteries</title>
+  <meta charset="utf-8" name="google-site-verification" content="WA3a7m0H8rSqDNEjkXc-ACEtKHVCXNE_cFzFsVcBm8Y" />
+  <link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+  <link rel="stylesheet" href="css/grid.css" type="text/css" media="all">
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+  <link rel="stylesheet" href="css/jquery-ui-1.8.5.custom.css" type="text/css" media="all">
+  <script type="text/javascript" src="js/jquery-1.4.2.min.js" ></script>
+	<script type="text/javascript" src="js/jquery.cycle.all.js"></script>
+  <script type="text/javascript" src="js/jquery-ui-1.8.5.custom.min.js"></script>
+  <script>
+$(document).ready(function(){
+	$("#ourmission").show(200);
+	$("#aboutdirector").hide(200);
+	$("#sales").hide(200);
+	$("#whatcustomerssay").hide(200);
+  $("#c_ourmission").click(function(){
+    $("#ourmission").show(200);
+	$("#aboutdirector").hide(200);
+	$("#sales").hide(200);
+	$("#whatcustomerssay").hide(200);
+  });
+  $("#c_aboutdirector").click(function(){
+    $("#ourmission").hide(200);
+	$("#aboutdirector").show(200);
+	$("#sales").hide(200);
+	$("#whatcustomerssay").hide(200);
+  });
+  $("#c_sales").click(function(){
+    $("#ourmission").hide(200);
+	$("#aboutdirector").hide(200);
+	$("#sales").show(200);
+	$("#whatcustomerssay").hide(200);
+  });
+  $("#c_whatcustomerssay").click(function(){
+    $("#ourmission").hide(200);
+	$("#aboutdirector").hide(200);
+	$("#sales").hide(200);
+	$("#whatcustomerssay").show(200);
+  });
+});
+</script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="js/jquery.plusanchor.js"></script>
+	
+  <!--[if lt IE 9]>
+  	<script type="text/javascript" src="js/html5.js"></script>
+  <![endif]-->
+</head>
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Akshay2047.github.com : website git" />
+<body>
+  <header>
+    <nav>
+    	<div class="container">
+        <div class="wrapper">
+          <h1><a href="index.html"><strong>Unison</strong>Batteries</a></h1>
+          <ul>
+          	<li><a href="index.html" class="current">about</a></li>
+            <li><a href="index-1.html">products and services</a></li>
+            <li><a href="index-2.html">Recycling Plant</a></li>
+            <li><a href="index-3.html">contacts</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="adv-content">
+    	<div class="container">
+        <ul class="breadcrumbs">
+        	<li>Home</li>
+        </ul>
+        <form action="" id="search-form">
+          <fieldset>
+          	<input type="text" value=""><input type="submit" value="">
+          </fieldset>
+        </form>
+      </div>
+    </section>
+  </header>
+  <section id="content">
+  	<div class="top">
+    	<div class="container">
+      	<div class="clearfix">
+          <section id="gallery">
+          	<div class="pics">
+            	<img src="images/slide1.jpg" alt="" width="495" height="329">
+              <img src="images/slide2.jpg" alt="" width="495" height="329">
+              <img src="images/slide3.jpg" alt="" width="495" height="329">
+              <img src="images/slide4.jpg" alt="" width="495" height="329">
+              <img src="images/slide5.jpg" alt="" width="495" height="329">
+			  <img src="images/slide6.jpg" alt="" width="495" height="329">
+            </div>
+            <a href="#" id="prev"></a>
+            <a href="#" id="next"></a>
+          </section>
+          <section id="intro">
+          	<div class="inner">
+          	  <h2>UNISON<br /> BATTERIES<span>pvt ltd.</span></h2>
+              <p align="justify">UNISON BATTERIES PVT LTD, is a well known and trusted manufacturer of a wide range of Automotive Batteries. Unison has been a pioneer in this Industry and has been a brand to be reckoned with in the Battery Industry since 2002. Unison Batteries are manufactured in a town called Dewas, from where it is supplied to all the states in India. Unison has over 100 dealers across INDIA and over 500 trusted corporate customers. Unison makes all kinds of batteries which are tested with numerous automobile products which makes it as one the best brands in Batteries in India.</p>
+              <a href="#c_ourmission" class="extra-button">Read More</a>
+          	</div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <div class="middle">
+    	<div class="container">
+      	<div class="wrapper">
+        	<div class="grid3 first">
+          	<ul class="categories">
+            	<li><a href="#!" id="c_ourmission">Mission</a></li>
+              <li><a href="#!" id="c_aboutdirector">People</a></li>
+              <li><a href="#!" id="c_sales">Sales</a></li>
+              <li><a href="#!" id="c_whatcustomerssay">Guestbook</a></li>
+            </ul>
+          </div>
+       	  <div class="grid9" id="ourmission">
+          	<h2>Our Mission</h2>
+			<section class="images" >
+			  <figure ><a href="#"><img   src="images/1page-img3.jpg" alt=""></a></figure>
+            </section>
+			
+            <p align="justify" style="padding-left:200px;padding-bottom:50px">Unison Batteries is a pioneer in the heavy electrical segments, which produces batteries for light automobiles, cars, heavy vehicles and inverters. At Unison Batteries, we aim to provide powerful, durable, long lasting batteries which are also light on the pocket and require low maintenance. A synonym of endurance and reliability, Unison Batteries is on a mission to power India with the best batteries at affordable costs. But the list doesn't end here. Being among the top battery manufacturers also demands a sense of responsibility towards nature and environment. At Unison, we adopt eco-friendly manufacturing processes for batteries to ensure minimum impact on the environment and preserve the surrounding ecosystem. Apart from this, we also have a battery recycling facility to ensure safe and clean disposal of used batteries, while recycling raw materials and conserving resources.</p>
+            <br/><br/>
+            
+          </div>
+       	  <div class="grid9" id="aboutdirector">
+          	<h2>Managing Director</h2>
+			<section class="images">
+            	<figure><a href="#"><img src="images/director.jpg" alt=""></a></figure>
+            </section>
+            <p align="justify" style="padding-left:200px;padding-top:40px;padding-bottom:50px"><b>Arun Sharma</b>  An entrepreneur in spirit and nature, Arun Sharma has been leading the Unison enterprise since it's inception. As the Director, has played a phenomenal role in shaping the company into what it stands for today. Since the company's foundation, Arun's constant and never-ending efforts have brought up the organisation from a small-scale factory to a well-known; reputed industrial enterprise dealing in world-class battery production. 
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+A man with wits and vision, he has over over ten years experience with a spirit to offer the best to prospective customers. His incredible efforts and vision have been recognised by Govt. of Madhya Pradesh, which has honoured his efforts by presenting him the "Captain of Industry" award for outstanding performance in industrial sector.<br/>For more info <a href="mailto:arun@unisonbatteries.com">send email</a> </p>
+          <br/><br/><br/><br/>
+		  </div>
+        	<div class="grid9" id="sales">
+          	<h2>Sales Director</h2>
+		<section class="images">
+            	<figure><a href="#"><img src="images/akshay.jpg" alt=""></a></figure>
+            </section>
+            <p align="justify" style="padding-left:200px;padding-top:40px;padding-bottom:50px"><b>Akshay</b> has rich experience in Marketing, Strategy, Business Development and cutting edge technology working with global clients across geographies. His expertise spans over Digital Marketing, Product Marketing - driving New Product Introductions and Go to Market Strategies; Consumer Engagement and monetization. He has conceptualized and implemented innovative marketing campaigns for leading brands. Akshay continues to apply his skills and rigour to reach higher levels.
+			<br/>For more info call @7416500791 or <a href="mailto:akshay@unisonbatteries.com">send email</a></p>
+			<br/><br/><br/><br/>
+            
+            <section class="images" >
+            	
+            </section>
+          </div>
+        	<div class="grid9" id="whatcustomerssay">
+          	<h2>What our Customers Say?</h2>
+            
+            <section class="images">	
+              <figure><a href="#"><img src="images/1page-img2.jpg" alt=""></a></figure>
+            </section>
+			<p align="justify" style="padding-left:200px;padding-top:0px;padding-bottom:50px"> &quot; We have been using Unison Batteries in our vehicles over a decade now. Despite of low-cost and low-maintainance, they perform exceptionally well. We prefer Unison over other brands and suggest all of you to try it once. &quot; -<b>atulauto.co.in</b></p>
+			
+			<p align="justify" style="padding-left:200px;padding-top:0px"> &quot;In the last three to four years, we have placed several orders with The Unison group. The company impresses us everytime with the quality of batteries they manufacture, and the ease of service which they provide.  Unison batteries are a promising product in terms of power and durablity. This, added with their cost-effectiveness has made Unison batteries an integral part of all our machines.&quot; -<b>Microtek</b></p>
+          <br/><br/><br/><br/>
+		  </div>
 
-    <title>Akshay2047.github.com</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/akshay2047">View on GitHub</a>
-
-          <h1 id="project_title">Akshay2047.github.com</h1>
-          <h2 id="project_tagline">website git</h2>
-
-        </header>
+        </div>
+      </div>
     </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
+  </section>
+  <footer>
+    <div class="container">
+    	<div class="wrapper">
+      	<div class="copy">Unison Batteries (c) 2013  |  All rights reserved.</div>
+        <address class="phone">
+        	We're glad to help you. Please email:<a href="mailto:sales@unisonbatteries.com?subject=Sales Service&body=--Sent from website">sales@unisonbatteries.com</a> or call us. <strong>+91-7416500791</strong>
+        </address>
+      </div>
     </div>
+  </footer>
+  <script type="text/javascript">
+		$(document).ready(function() {
+			$('.pics').cycle({
+				fx: 'toss',
+				next:   '#next', 
+				prev:   '#prev' 
+			});
+			
+			// Datepicker
+			$('#datepicker').datepicker({
+				inline: true
+			});
+			
+		});
+	</script>
+	<script type="text/javascript">
+		jQuery(document).ready(function($){
+			$('body').plusAnchor({
+				easing: 'easeInOutExpo',
+				offsetTop: -20,
+				speed: 1000,
+				onInit: function( base ) {
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
+					if ( base.initHash != '' && $(base.initHash).length > 0 ) {
+						window.location.hash = 'hash_' + base.initHash.substring(1);
+						window.scrollTo(0, 0);
+		
+						$(window).load( function() {
+		
+							timer = setTimeout(function() {
+								$(base.scrollEl).animate({
+									scrollTop: $( base.initHash ).offset().top
+								}, base.options.speed, base.options.easing);
+							}, 2000); // setTimeout
+		
+						}); // window.load
+					}; // if window.location.hash
+		
+				} // onInit
+			});
+		});
+	</script>
 
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-46728127-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
-
-
-  </body>
+</body>
 </html>
