@@ -1,5 +1,5 @@
 User-agent: *
-Sitemap: http://unisonbatteries.com/sitemap.xml
+Sitemap: http://akshay2047.github.com/sitemap.xml
 Disallow: /cgi-bin
 Disallow: /css
 Disallow: /fonts
